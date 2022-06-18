@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "creation": "2021-10-09 10:04:41.678994",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "yyyy",
+  "zzzz",
+  "lft",
+  "rgt",
+  "is_group",
+  "old_parent",
+  "parent_tree_doctype"
+ ],
+ "fields": [
+  {
+   "fieldname": "yyyy",
+   "fieldtype": "Data",
+   "label": "YYYY"
+  },
+  {
+   "fieldname": "zzzz",
+   "fieldtype": "Data",
+   "label": "ZZZZ"
+  },
+  {
+   "fieldname": "lft",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Left",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "rgt",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Right",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "is_group",
+   "fieldtype": "Check",
+   "label": "Is Group"
+  },
+  {
+   "fieldname": "old_parent",
+   "fieldtype": "Link",
+   "label": "Old Parent",
+   "options": "Tree Doctype"
+  },
+  {
+   "fieldname": "parent_tree_doctype",
+   "fieldtype": "Link",
+   "label": "Parent Tree Doctype",
+   "options": "Tree Doctype"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_tree": 1,
+ "links": [],
+ "modified": "2021-10-09 10:04:41.678994",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Tree Doctype",
+ "nsm_parent_field": "parent_tree_doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

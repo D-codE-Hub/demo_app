@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "creation": "2021-10-09 10:11:39.992540",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "aaa",
+  "bbb",
+  "ccc"
+ ],
+ "fields": [
+  {
+   "fieldname": "aaa",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "AAA"
+  },
+  {
+   "fieldname": "bbb",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "BBB"
+  },
+  {
+   "fieldname": "ccc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CCC"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-10-09 10:15:34.057498",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Child Doc",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

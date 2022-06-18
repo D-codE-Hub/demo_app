@@ -1,0 +1,23 @@
+{
+ "aggregate_function_based_on": "",
+ "creation": "2022-06-17 09:38:42.192957",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Server Side Scripting",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[]",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Card One",
+ "modified": "2022-06-17 09:38:42.192957",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Card One",
+ "owner": "Administrator",
+ "report_function": "Sum",
+ "show_percentage_stats": 0,
+ "stats_time_interval": "Daily",
+ "type": "Document Type"
+}

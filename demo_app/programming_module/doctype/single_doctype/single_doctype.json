@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "creation": "2021-10-09 10:01:39.216192",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "xyz",
+  "pqr",
+  "child"
+ ],
+ "fields": [
+  {
+   "fieldname": "xyz",
+   "fieldtype": "Data",
+   "label": "XYZ"
+  },
+  {
+   "fieldname": "pqr",
+   "fieldtype": "Data",
+   "label": "PQR"
+  },
+  {
+   "fieldname": "child",
+   "fieldtype": "Table",
+   "label": "Child",
+   "options": "Child Doc"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-10-09 10:13:32.298335",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Single Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "autoname": "PR-.####",
+ "creation": "2021-10-16 09:18:21.064693",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "enable",
+  "first_name",
+  "middle_name",
+  "laste_name",
+  "full_name",
+  "column_break_6",
+  "email",
+  "mob_no",
+  "dob",
+  "age",
+  "section_break_11",
+  "family_members",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "enable",
+   "fieldtype": "Check",
+   "label": "Enable"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "laste_name",
+   "fieldtype": "Data",
+   "label": "Laste Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Read Only",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "mob_no",
+   "fieldtype": "Data",
+   "label": "Mob No"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB "
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "family_members",
+   "fieldtype": "Table",
+   "label": "Family Members",
+   "options": "Family Members"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Client Side Scripting",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-10-16 09:21:03.368453",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Client Side Scripting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
